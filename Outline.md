@@ -15,19 +15,30 @@ This section should give a brief history of operating systems and how security h
 ## 2. Why Operating System Security is Important
 This section should outline the impact of operating system security on users, businesses, governments, and other relevant entities.
 
-## 3. Methods of Securing Operating Systems
-This section will discuss:
+Possible examples:
+	1. WannaCry (EternalBlue)
+	2. Petya
 
-1. Various researched areas of operating system security
-2. How they are applied to the operating system during development
-3. What exploit/vulnerability they are meant to protect against
-4. Any problems associated with them
-
-## 4. Effects of User-Level Software and Hardware on Operating System Security
+## 3. Effects of User-Level Software and Hardware on Operating System Security
 This section should discuss:
 
 1. How user-level software and permissions associated with them impact the design of operating systems
 2. How hardware affects operating system security (talk about Meltdown/Spectre & Intel ME here?)
+
+## 4. Methods of Securing Operating Systems
+This section will discuss:
+
+1. Various researched areas of operating system security
+	1. Address Space Layout Randomization
+	2. Permissions/Capabilities
+	3. Fault Tolerance
+	4. Stack Protection
+	5. Memory Protection
+	6. Rings
+	7. Formalization
+2. How they are applied to the operating system during development
+3. What exploit/vulnerability they are meant to protect against
+4. Any problems associated with them
 
 ## 5. Case Study of Various Operating System Exploits/Vulnerabilities
 This section presents:
@@ -38,6 +49,11 @@ This section presents:
 4. How the exploit/vulnerabilities were discovered
 5. The amount of devices affected if applicable
 6. What was done to patch the exploit/vulnerability, with code & discussion of it if possible
+
+Picks:
+
+1. Dirty CoW
+2. 
 
 ## 6. Analysis of Current Research and Innovations in Operating System Security
 This section discusses:
